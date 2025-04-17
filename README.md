@@ -11,8 +11,8 @@ QMK-based firmware.
 34 mm ball, same as in Elecom EX-G.
 For bearings - uxcell 2.5mm Ceramic Bearing Balls, ZrO2 Zirconium Oxide Ball, again, the same as used to improve my Elecom trackballs.
 
-![Ball Holder Prototype (with a ball inserted)](https://github.com/ak66666/ThumbsUp-Trackball/blob/main/Photos/Ball%20Holder%20Prototype%20(without%20ball)%2C%2020250417.jpg)
 ![Ball Holder Prototype (without ball)](https://github.com/ak66666/ThumbsUp-Trackball/blob/main/Photos/Ball%20Holder%20Prototype%2C%2020250417.jpg)
+![Ball Holder Prototype (with a ball inserted)](https://github.com/ak66666/ThumbsUp-Trackball/blob/main/Photos/Ball%20Holder%20Prototype%20(without%20ball)%2C%2020250417.jpg)
 
 Other pictures in Photos folder.
 
