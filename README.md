@@ -1,6 +1,6 @@
 # ThumbsUp! Trackball
 
-A PCB-based thumb-operated trackball, inspired by Elecom EX-G left hand trackball and my own ThumbsUp! keyboards.
+A PCB-based thumb-operated trackball, inspired by Elecom EX-G left hand trackball, Ploopy Nano trackball, and my own ThumbsUp! keyboards.
 
 Device is envsioned as suitable for both left- and right-hand usage.
 For that one of the plates could be re-attached at 180 degree and the cross-board connectors will swap left and right buttons.

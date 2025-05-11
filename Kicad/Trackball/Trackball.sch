@@ -1,0 +1,248 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 681FBF62
+P 5200 3350
+F 0 "U1" H 5200 4387 60  0000 C CNN
+F 1 "ProMicro" H 5200 4281 60  0000 C CNN
+F 2 "promicro:ProMicro" H 5300 2300 60  0001 C CNN
+F 3 "" H 5300 2300 60  0000 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 681FE87E
+P 8000 2850
+F 0 "#PWR0101" H 8000 2700 50  0001 C CNN
+F 1 "+3V3" H 8015 3023 50  0000 C CNN
+F 2 "" H 8000 2850 50  0001 C CNN
+F 3 "" H 8000 2850 50  0001 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2850 8000 2850
+Wire Wire Line
+	6850 2850 6700 2850
+$Comp
+L power:GND #PWR0102
+U 1 1 68201B1F
+P 6450 2850
+F 0 "#PWR0102" H 6450 2600 50  0001 C CNN
+F 1 "GND" H 6455 2677 50  0000 C CNN
+F 2 "" H 6450 2850 50  0001 C CNN
+F 3 "" H 6450 2850 50  0001 C CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 2950 2    50   Input ~ 0
+NCS
+Text GLabel 7850 3050 2    50   Input ~ 0
+MISO
+Text GLabel 7850 3150 2    50   Input ~ 0
+MOSI
+Text GLabel 7850 3250 2    50   Input ~ 0
+SCLK
+$Comp
+L 52559-1233:52559-1233 J1
+U 1 1 681FC9A0
+P 6850 2750
+F 0 "J1" H 7350 3015 50  0000 C CNN
+F 1 "52559-1233" H 7350 2924 50  0000 C CNN
+F 2 "52559-1233:525591233" H 7700 2850 50  0001 L CNN
+F 3 "" H 7700 2750 50  0001 L CNN
+F 4 "FFC & FPC Connectors 0.5 FPC ZIF 12Ckt Sn-Ag-Bi" H 7700 2650 50  0001 L CNN "Description"
+F 5 "5.55" H 7700 2550 50  0001 L CNN "Height"
+F 6 "538-52559-1233" H 7700 2450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/52559-1233?qs=Q7nJoqLg%252BZgmtCe8OD7vZw%3D%3D" H 7700 2350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 7700 2250 50  0001 L CNN "Manufacturer_Name"
+F 9 "52559-1233" H 7700 2150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 3350 2    50   Input ~ 0
+MOTION
+Wire Wire Line
+	6850 2750 6700 2750
+Wire Wire Line
+	6700 2750 6700 2850
+Connection ~ 6700 2850
+Wire Wire Line
+	6700 2850 6450 2850
+Wire Wire Line
+	6700 2850 6700 3450
+Wire Wire Line
+	6700 3450 6850 3450
+Wire Wire Line
+	6850 3450 6850 3700
+Wire Wire Line
+	6850 3700 7850 3700
+Wire Wire Line
+	7850 3700 7850 3450
+Connection ~ 6850 3450
+Wire Wire Line
+	7850 2750 7850 2400
+Wire Wire Line
+	7850 2400 6700 2400
+Wire Wire Line
+	6700 2400 6700 2750
+Connection ~ 6700 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 68204F9F
+P 6350 4700
+F 0 "MX1" H 6383 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 4849 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 5725 4675 60  0001 C CNN
+F 3 "" H 5725 4675 60  0001 C CNN
+	1    6350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 6820547E
+P 6750 4700
+F 0 "MX2" H 6783 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 6783 4849 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6125 4675 60  0001 C CNN
+F 3 "" H 6125 4675 60  0001 C CNN
+	1    6750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 68205860
+P 7150 4700
+F 0 "MX3" H 7183 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 7183 4849 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6525 4675 60  0001 C CNN
+F 3 "" H 6525 4675 60  0001 C CNN
+	1    7150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 68205C7B
+P 7550 4700
+F 0 "MX4" H 7583 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 7583 4849 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6925 4675 60  0001 C CNN
+F 3 "" H 6925 4675 60  0001 C CNN
+	1    7550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 682072C1
+P 7900 4650
+F 0 "MX5" H 7933 4873 60  0000 C CNN
+F 1 "MX-NoLED" H 7933 4799 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7275 4625 60  0001 C CNN
+F 3 "" H 7275 4625 60  0001 C CNN
+	1    7900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 68208582
+P 2550 4600
+F 0 "J3" V 2612 4744 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 2703 4744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2550 4600 50  0001 C CNN
+F 3 "~" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 68208F93
+P 3700 4650
+F 0 "J5" V 3762 4794 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3853 4794 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 4650 50  0001 C CNN
+F 3 "~" H 3700 4650 50  0001 C CNN
+	1    3700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 68209A22
+P 2500 5000
+F 0 "J2" V 2562 5144 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 2653 5144 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2500 5000 50  0001 C CNN
+F 3 "~" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 6820A0B0
+P 3550 5000
+F 0 "J4" V 3612 5144 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3703 5144 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3550 5000 50  0001 C CNN
+F 3 "~" H 3550 5000 50  0001 C CNN
+	1    3550 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J6
+U 1 1 6821F6B2
+P 4750 5100
+F 0 "J6" V 4812 5244 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 4903 5244 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4750 5100 50  0001 C CNN
+F 3 "~" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J7
+U 1 1 682440FC
+P 2550 5800
+F 0 "J7" V 2612 5944 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 2703 5944 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2550 5800 50  0001 C CNN
+F 3 "~" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J8
+U 1 1 68244AA4
+P 3300 5800
+F 0 "J8" V 3362 5944 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3453 5944 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3300 5800 50  0001 C CNN
+F 3 "~" H 3300 5800 50  0001 C CNN
+	1    3300 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J9
+U 1 1 6824538A
+P 4300 5850
+F 0 "J9" V 4362 5994 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 4453 5994 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4300 5850 50  0001 C CNN
+F 3 "~" H 4300 5850 50  0001 C CNN
+	1    4300 5850
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
